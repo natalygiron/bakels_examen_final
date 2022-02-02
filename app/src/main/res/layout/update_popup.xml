@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Product"
+        android:background="#1976D2"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="24dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Name"/>
+
+
+    <EditText
+        android:id="@+id/name_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="15dp"
+        android:singleLine="true"
+        android:hint="Name"
+        android:textSize="16dp"
+        android:paddingHorizontal="15dp"
+        android:background="@drawable/round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Brand"/>
+
+    <EditText
+        android:id="@+id/brand_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="16dp"
+        android:hint="Brand"
+        android:singleLine="true"
+        android:paddingHorizontal="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Category"/>
+
+    <EditText
+        android:id="@+id/category_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:singleLine="true"
+        android:textSize="16dp"
+        android:hint="Category"
+        android:paddingHorizontal="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Price"/>
+
+    <EditText
+        android:id="@+id/price_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:singleLine="true"
+        android:textSize="16dp"
+        android:hint="Price"
+        android:paddingHorizontal="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Stock"/>
+
+    <EditText
+        android:id="@+id/stock_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:singleLine="true"
+        android:textSize="16dp"
+        android:hint="Stock"
+        android:paddingHorizontal="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/round"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Imagen url"/>
+
+    <EditText
+        android:id="@+id/imagen_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:singleLine="true"
+        android:hint="Imagen url"
+        android:paddingHorizontal="15dp"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/round"/>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/round"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:text="Update"/>
+
+</LinearLayout>

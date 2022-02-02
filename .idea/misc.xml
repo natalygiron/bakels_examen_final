@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ciclo5/DesarrolloMovil/BakelsFirebase/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Ciclo5/DesarrolloMovil/BakelsFirebase/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Ciclo5/DesarrolloMovil/BakelsFirebase/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/drawable-anydpi/ic_add_white.xml" value="0.2203125" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/drawable/round.xml" value="0.2203125" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/drawable/search24_icon.xml" value="0.2203125" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/drawable/shape_rectangle.xml" value="0.11302083333333333" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/activity_agregar_registro.xml" value="0.16666666666666666" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/activity_detalle_registro.xml" value="0.1" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/activity_list_sqlite.xml" value="0.16666666666666666" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/activity_main.xml" value="0.15670289855072464" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/activity_registration.xml" value="0.15670289855072464" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/item_card.xml" value="0.33" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/row_record.xml" value="0.6758241758241759" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/layout/update_popup.xml" value="0.1" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/DSI/CicloV/DesarrolloAplicacionesMovilesI/Login_Register/sistema-bakels-firebase-login-and-register/app/src/main/res/menu/search.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

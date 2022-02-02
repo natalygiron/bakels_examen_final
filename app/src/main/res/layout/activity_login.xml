@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    ><!-- aca va el tools context -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="8dp"
+        >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/bakels_logo"
+            />
+
+        <!-- Campos de formulario -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_username_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/username"
+            app:endIconMode="clear_text"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_username_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:backgroundTint="@color/bakels_secondary"
+                android:maxLines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_password_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/password"
+            app:errorEnabled="true"
+            app:endIconMode="password_toggle">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:backgroundTint="@color/bakels_secondary"
+                android:maxLines="1"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Boton del formulario -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <!--<com.google.android.material.button.MaterialButton
+                android:id="@+id/login_button"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:text="@string/button_login"
+                android:layout_marginRight="15dp"
+                />-->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/login_button"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:text="@string/button_login"
+                />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/link_register_text"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/bakels_secondary"
+            android:textSize="18sp"
+            android:text="@string/link_register_text"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress_bar_loading_login"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bar"
+        android:visibility="gone"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

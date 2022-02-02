@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetalleRegistroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Imagen del usuario de perfil-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileIv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_person_black"
+            app:civ_border_color="@color/white"
+            app:civ_border_overlay="true"
+            app:civ_border_width="1dp" />
+
+        <!-- tabla de otros datos -->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2"
+            android:paddingStart="15dp">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/bioTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    android:text="La información del Producto"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlCompat" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/nombre_product"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/nomnreTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/nombre_product"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/marca_product"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/marcaTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/marca_product"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/categoria_product"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/categorialTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/categoria_product"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/precio_product"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/precioTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/precio_product"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/stock_product"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/stockTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/stock_product"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Fecha de Registro"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/addedTimeTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Registro del Usuario fecha y hora"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Fecha Actualizacion"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/updateTimeTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Registro fecha y hora de actualización"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">BakelsFirebase</string>
+    <string name="username">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Confirme su contraseña</string>
+
+    <string name="product_id">P001</string>
+    <string name="product_name">Product</string>
+    <string name="product_brand">Brand</string>
+    <string name="product_category">Category</string>
+    <string name="product_stock">45</string>
+    <string name="product_price">19.90</string>
+    <string name="product_url">URL</string>
+
+    <string name="button_login">LOGIN</string>
+    <string name="button_register">REGISTER</string>
+
+    <string name="link_login_text">Ya tiene una cuenta? Ir al login.</string>
+    <string name="link_register_text">No tienes una cuenta? Regístrate aquí.</string>
+
+    <string name="error_password">La password debe tener minimo 5 caracteres.</string>
+
+<!--  Daniel  -->
+    <string name="nombre_product">Nombre:</string>
+    <string name="marca_product">Marca:</string>
+    <string name="categoria_product">Categoría:</string>
+    <string name="stock_product">Stock:</string>
+    <string name="precio_product">Precio S/. :</string>
+
+    <string name="nombre">Nombre: </string>
+    <string name="marca">Marca: </string>
+    <string name="categoria">Categoría: </string>
+    <string name="stock">Stock: </string>
+    <string name="precio">Precio: </string>
+    <string name="button">Button</string>
+
+    <!-- usado al inicio -->
+    <string name="siguiente">SIGUIENTE</string>
+    <!-- usado al inicio -->
+    <string name="next">Inicio</string>
+    <string name="title">Buscar</string>
+
+</resources>
